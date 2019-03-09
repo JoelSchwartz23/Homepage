@@ -1,0 +1,123 @@
+body {
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  list-style-type: none; 
+}
+
+.button{
+  font-size: 1px;
+  border-radius: .1px;
+}
+
+ .todolist:hover{
+  box-shadow:10px 10px 10px 10px black;
+  transform: scale(1.02);
+ }
+
+
+.todolist{
+  font-family: 'Acme', sans-serif;
+  position: absolute;
+  word-wrap: break-word;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 10px;
+  text-shadow: 1px 1px black;
+  text-shadow: 1px black;
+  transition: .3s linear;
+  width: 40%;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius:5px 5px 5px 5px;
+}
+
+.weather:hover{
+  box-shadow:10px 10px 10px 10px black;
+  transform: scale(1.02);
+}
+
+.weather{
+  font-family: 'Acme', sans-serif;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:white;
+  text-shadow: 2px 2px black;
+  text-transform: capitalize;
+  transition: .3s linear;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius:5px 5px 5px 5px;
+}
+
+
+.quote:hover{
+  box-shadow:10px 10px 10px 10px black;
+  transform: scale(1.02);
+}
+
+.quote{
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  font-family: 'Acme', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 40%;
+  color: white;
+  text-shadow: 1px 1px black;
+  transition: .3s linear;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius:5px 5px 5px 5px;
+}
+.time:hover{
+box-shadow:5px 5px 5px 5px black;
+transform: scale(1.02);
+}
+
+.time{
+  font-family: 'Acme', sans-serif;
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+  position: absolute;
+  /* top: 40%; */
+  /* right: 42%; */
+  padding-left: 10px;
+  width: 20%;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+  transition: .3s linear;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius:5px 5px 5px 5px;
+}
+
+input[type=text]{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 80%;
+  background-color: gray;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[type=text]:focus{
+  background-color: rgba(170, 170, 182, 0.801);
+}
+
+.header{
+  height: 20vh;
+}
+
+.middle{
+height: 50vh;
+}
+
+.bottom{
+height: 40vh;
+}
