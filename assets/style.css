@@ -8,6 +8,8 @@ ul{
 }
 
 .todolist{
+   background-color: black;
+  opacity: .7;
   font-family: 'Oswald', sans-serif;
   position: absolute;
   word-wrap: break-word;
@@ -29,6 +31,8 @@ ul{
  }
 
 .weather{
+   background-color: black;
+  opacity: .7;
   font-family: 'Oswald', sans-serif;
   position: absolute;
   right: 15px;
@@ -51,9 +55,11 @@ ul{
 
 
 .quote{
+   background-color: black;
+  opacity: .7;
   position: absolute;
   top: 300px;
-  left: 500px;
+  left: 570px;
   font-family: 'Oswald', sans-serif;
   padding-left: 10px;
   padding-right: 10px;
@@ -72,6 +78,8 @@ ul{
 
 .time{
   font-family: 'Oswald', sans-serif;
+  background-color: black;
+  opacity: .7;
   display: flex;
   justify-content: center;
   word-wrap: break-word;
@@ -119,4 +127,8 @@ height: 50vh;
 
 .bottom{
 height: 40vh;
+}
+
+input[type=checkbox]:checked + i{
+  text-decoration: line-through;
 }
