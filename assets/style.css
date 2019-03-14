@@ -24,20 +24,16 @@ ul{
   word-wrap: break-word;
   bottom: 20px;
   right: 20px;
-  color: white;
-  padding-left: 10px;
+  color: whitesmoke;
+  padding-left: 7px;
   text-shadow: 1px 1px black;
-  text-shadow: 1px black;
+  text-shadow: 3px black;
   transition: .3s linear;
   width: 40%;
   box-shadow: 2px 2px 2px 2px black;
   border-radius:5px 5px 5px 5px;
 }
 
-.weather:hover{
-  box-shadow:10px 10px 10px 10px black;
-  transform: scale(1.02);
-}
 
 .weather{
   font-family: 'Acme', sans-serif;
@@ -54,11 +50,12 @@ ul{
   border-radius:5px 5px 5px 5px;
 }
 
-
-.quote:hover{
+.weather:hover{
   box-shadow:10px 10px 10px 10px black;
   transform: scale(1.02);
 }
+
+
 
 .quote{
   position: absolute;
@@ -74,9 +71,10 @@ ul{
   box-shadow: 2px 2px 2px 2px black;
   border-radius:5px 5px 5px 5px;
 }
-.time:hover{
-box-shadow:5px 5px 5px 5px black;
-transform: scale(1.02);
+
+.quote:hover{
+  box-shadow:10px 10px 10px 10px black;
+  transform: scale(1.02);
 }
 
 .time{
@@ -93,6 +91,11 @@ transform: scale(1.02);
   transition: .3s linear;
   box-shadow: 2px 2px 2px 2px black;
   border-radius:5px 5px 5px 5px;
+}
+
+.time:hover{
+box-shadow:5px 5px 5px 5px black;
+transform: scale(1.02);
 }
 
 input[type=text]{
