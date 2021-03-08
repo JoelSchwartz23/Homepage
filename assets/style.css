@@ -20,7 +20,7 @@ ul{
   text-shadow: 1px 1px black;
   text-shadow: 3px black;
   transition: .3s linear;
-  width: 40%;
+  width:30%;
   box-shadow: 2px 2px 2px 2px black;
   border-radius:5px 5px 5px 5px;
 }
